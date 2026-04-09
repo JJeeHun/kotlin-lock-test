@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: mini_ticket_booking
+  jpa:
+    show-sql: true             # 콘솔에 SQL 출력 (System.out)
+    properties:
+      hibernate:
+#        format_sql: true       # SQL을 보기 좋게 정렬 (Pretty Print)
+        highlight_sql: true    # SQL 키워드에 색상 부여 (가독성 향상)
+        use_sql_comments: true # 쿼리 생성 이유를 주석으로 포함
+
